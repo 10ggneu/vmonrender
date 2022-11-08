@@ -3,7 +3,7 @@ services:
   - type: web
     name: vmess
     env: docker
-    repo: https://github.com/jmheqiao/vmonrender.git # optional
+    repo: https://github.com/10ggneu/vmonrender.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
